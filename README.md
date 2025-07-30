@@ -44,7 +44,7 @@ This project features a modular expansion board based on the **ESP32-C6** microc
 
 ## Schematic
 
-You can view the schematic [here](Hardware/Schematic/ESP32-C6_Expansion_Schematic.pdf) *(update with actual path)*.
+You can view the schematic [here](ESP32C6_Board_Schematics.pdf).
 
 ## Future Enhancements
 
