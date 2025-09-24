@@ -871,6 +871,10 @@
     [
       "beafeceb-d7f8-4966-bdc7-36ccea772b2f",
       "Root"
+    ],
+    [
+      "3f31b79a-4b1d-4f6a-9e65-8105f0e11a44",
+      "ESP32-C6"
     ]
   ],
   "text_variables": {}
