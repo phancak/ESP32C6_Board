@@ -505,7 +505,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "FSPI",
-        "pcb_color": "rgb(0, 255, 0)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(0, 132, 0)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -522,7 +522,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "GND",
-        "pcb_color": "rgb(132, 132, 132)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(194, 194, 194)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -590,8 +590,8 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "RF",
-        "pcb_color": "rgb(255, 255, 0)",
-        "schematic_color": "rgb(255, 255, 0)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(194, 194, 0)",
         "track_width": 0.25,
         "via_diameter": 0.7,
         "via_drill": 0.3,
@@ -607,7 +607,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "SDIO",
-        "pcb_color": "rgb(194, 0, 194)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(255, 0, 255)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -624,7 +624,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "SPI",
-        "pcb_color": "rgb(0, 132, 0)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(0, 255, 0)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -658,7 +658,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "USB",
-        "pcb_color": "rgb(0, 255, 255)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(0, 255, 255)",
         "track_width": 0.235,
         "via_diameter": 0.8,
@@ -875,6 +875,18 @@
     [
       "3f31b79a-4b1d-4f6a-9e65-8105f0e11a44",
       "ESP32-C6"
+    ],
+    [
+      "6ad31e88-c611-43e7-8d3f-ce4ca2080bcf",
+      "Power_Management"
+    ],
+    [
+      "dbcb7f5e-694a-4e16-90f4-3e351eeed3d3",
+      "RF_USB_Memory"
+    ],
+    [
+      "4b1f7b1a-88c2-464c-9e33-85a1d9f6c4fe",
+      "Interfaces"
     ]
   ],
   "text_variables": {}
