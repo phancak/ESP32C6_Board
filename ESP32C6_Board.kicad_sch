@@ -43,6 +43,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 76.2) (xy 116.84 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a737b13-aa5f-4c9e-adaf-3cbac08f55a5")
+	)
+	(wire
+		(pts
 			(xy 110.49 118.11) (xy 110.49 99.06)
 		)
 		(stroke
@@ -153,16 +163,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 78.74) (xy 116.84 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4d9fbac-c5eb-40ad-8f67-82703e02c325")
-	)
-	(wire
-		(pts
 			(xy 173.99 53.34) (xy 198.12 53.34)
 		)
 		(stroke
@@ -170,6 +170,16 @@
 			(type default)
 		)
 		(uuid "a6c863c7-db74-4439-a817-be6466069a49")
+	)
+	(wire
+		(pts
+			(xy 92.71 78.74) (xy 116.84 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b65bc1d5-6f77-4176-ac73-ec01b4d96a5a")
 	)
 	(wire
 		(pts
@@ -230,16 +240,6 @@
 			(type default)
 		)
 		(uuid "dfd4316e-999c-46ae-b833-f2994f4f06e3")
-	)
-	(wire
-		(pts
-			(xy 92.71 76.2) (xy 116.84 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e81f0119-a014-4457-98eb-5ac16eb9c88c")
 	)
 	(text_box "Notes:\n1. For XTAL assume stray capacitance 5nF\n2. For the XTAL the sum of the frequency tolerance \n   and frequency stability must not exceed 10 ppm.\n3. Use 2 pF capacitors on each side of the crystal \n   (C1 and C2 to ground)\n\n- SN74CB3T3257PWR designed  to work with SPI and QSPI\n  (Has low C and R)\n- 0603 Components are used on the RF trace"
 		(exclude_from_sim no)
@@ -794,26 +794,6 @@
 				(justify left top)
 			)
 		)
-		(pin "USB_D-" bidirectional
-			(at 92.71 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "98b9cb3a-3a72-4eb3-8e8a-abdcf5ab39dd")
-		)
-		(pin "USB_D+" bidirectional
-			(at 92.71 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "d69053c9-cc0d-4e0b-872c-6eedc635dfd0")
-		)
 		(pin "SPICS0_Chip_Select" bidirectional
 			(at 92.71 48.26 0)
 			(effects
@@ -883,6 +863,26 @@
 				(justify right)
 			)
 			(uuid "084c11b1-cbe3-495b-b1b6-330a9eeddd91")
+		)
+		(pin "USB_D2+_DI" bidirectional
+			(at 92.71 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "10a55224-451e-4fbe-8eaa-0cf296fec3ca")
+		)
+		(pin "USB_D2-_DI" bidirectional
+			(at 92.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "199d7eeb-156a-41c6-8746-ed11491dac27")
 		)
 		(instances
 			(project "ESP32C6_Board"

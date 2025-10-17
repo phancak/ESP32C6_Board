@@ -4469,6 +4469,25 @@
 		)
 		(uuid "4ae3ac07-01f3-4faf-ad7f-050b7bacc0b9")
 	)
+	(text_box "Notes:\n- The I2C will be set on GPIO10, 11 through the GPIO Matrix\n- QSPI is on GPIO2, 4, 5, 6 ,7 using IO MUX\n- SPI2 to be used must be reprogrammed for "
+		(exclude_from_sim no)
+		(at 19.05 22.225 0)
+		(size 70.485 31.115)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left top)
+		)
+		(uuid "f0646c55-3dff-41db-bea8-d247d882f499")
+	)
 	(text "Resistor is optional\n(5 MΩ < R ≤ 10 MΩ)"
 		(exclude_from_sim no)
 		(at 75.184 124.206 0)
@@ -4616,7 +4635,7 @@
 		)
 		(uuid "24ead1ba-9aee-478a-b6a4-59923877fbca")
 	)
-	(label "GPIO23_SDIO_DATA3"
+	(label "GPIO23_FSPID_MOSI{slash}SIO0"
 		(at 184.15 53.34 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4627,7 +4646,7 @@
 		)
 		(uuid "2610cd05-8346-4fe8-b064-fd63e3b9e105")
 	)
-	(label "GPIO22_SDIO_DATA2"
+	(label "GPIO22_FSPIQ_MISO{slash}SIO1"
 		(at 184.15 55.88 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4737,7 +4756,7 @@
 		)
 		(uuid "66fb7d87-e04e-4c73-9497-4744643f1258")
 	)
-	(label "GPIO21_SDIO_DATA1"
+	(label "GPIO21_FSPICLK"
 		(at 184.15 58.42 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4968,7 +4987,7 @@
 		)
 		(uuid "df311f0a-8c7f-42d5-84d8-41156252d57a")
 	)
-	(label "GPIO20_SDIO_DATA0"
+	(label "GPIO20_FSPICS0"
 		(at 184.15 60.96 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5046,7 +5065,7 @@
 		)
 		(uuid "00f75058-00de-4936-aa7b-a6349b0ef1a9")
 	)
-	(hierarchical_label "GPIO23_SDIO_DATA3"
+	(hierarchical_label "GPIO23_FSPID_MOSI{slash}SIO0"
 		(shape bidirectional)
 		(at 184.15 53.34 0)
 		(fields_autoplaced yes)
@@ -5106,7 +5125,7 @@
 		)
 		(uuid "384e69da-8f70-4b84-b7c0-e9d55a9ec270")
 	)
-	(hierarchical_label "GPIO20_SDIO_DATA0"
+	(hierarchical_label "GPIO20_FSPICS0"
 		(shape bidirectional)
 		(at 184.15 60.96 0)
 		(fields_autoplaced yes)
@@ -5262,7 +5281,7 @@
 		)
 		(uuid "be3cc7f3-e3c8-402f-abe7-1625ed4bad56")
 	)
-	(hierarchical_label "GPIO22_SDIO_DATA2"
+	(hierarchical_label "GPIO22_FSPIQ_MISO{slash}SIO1"
 		(shape bidirectional)
 		(at 184.15 55.88 0)
 		(fields_autoplaced yes)
@@ -5310,7 +5329,7 @@
 		)
 		(uuid "da6a9500-9d43-4130-ab73-d251820e301c")
 	)
-	(hierarchical_label "GPIO21_SDIO_DATA1"
+	(hierarchical_label "GPIO21_FSPICLK"
 		(shape bidirectional)
 		(at 184.15 58.42 0)
 		(fields_autoplaced yes)

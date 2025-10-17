@@ -659,7 +659,7 @@
         "microvia_drill": 0.1,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(0, 255, 255)",
+        "schematic_color": "rgb(0, 0, 255)",
         "track_width": 0.235,
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -674,7 +674,7 @@
     "netclass_patterns": [
       {
         "netclass": "USB",
-        "pattern": "/USB*"
+        "pattern": "*USB_D*"
       },
       {
         "netclass": "GND",
