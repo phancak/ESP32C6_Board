@@ -423,7 +423,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 15.24 13.97 180)
 					(length 5.08)
 					(name "VBUS"
@@ -513,7 +513,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 15.24 11.43 180)
 					(length 5.08)
 					(name "VBUS"
@@ -567,7 +567,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 15.24 6.35 180)
 					(length 5.08)
 					(name "VBUS"
@@ -657,7 +657,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 15.24 8.89 180)
 					(length 5.08)
 					(name "VBUS"
@@ -2918,6 +2918,12 @@
 		(uuid "c8004313-f92d-463d-ae26-e96bdf9b4bcf")
 	)
 	(junction
+		(at 64.77 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8b51d1a-f9ae-4377-9398-fc28049a89f0")
+	)
+	(junction
 		(at 95.25 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3597,6 +3603,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 35.56) (xy 81.28 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9a85e3d-b002-4287-ab00-55ff14e93557")
+	)
+	(wire
+		(pts
 			(xy 177.8 96.52) (xy 204.47 96.52)
 		)
 		(stroke
@@ -3677,7 +3693,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 35.56) (xy 81.28 35.56)
+			(xy 57.15 35.56) (xy 64.77 35.56)
 		)
 		(stroke
 			(width 0)
@@ -4072,7 +4088,7 @@
 		)
 		(uuid "681f955f-63a3-4aa2-9c0a-49c948651353")
 	)
-	(label "VDD_SPI"
+	(label "+3.3V_VDD_SPI"
 		(at 59.69 121.92 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4831,6 +4847,74 @@
 			(project "ESP32C6_Board"
 				(path "/beafeceb-d7f8-4966-bdc7-36ccea772b2f/dbcb7f5e-694a-4e16-90f4-3e351eeed3d3"
 					(reference "FB2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 64.77 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26551673-36b9-43c8-ab69-88b69371eea8")
+		(property "Reference" "#FLG03"
+			(at 64.77 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 64.7701 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 64.77 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8655cfaa-f166-4ef7-8c06-eba57c392f23")
+		)
+		(instances
+			(project "ESP32C6_Board"
+				(path "/beafeceb-d7f8-4966-bdc7-36ccea772b2f/dbcb7f5e-694a-4e16-90f4-3e351eeed3d3"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)

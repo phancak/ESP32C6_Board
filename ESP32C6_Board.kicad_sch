@@ -11,9 +11,35 @@
 		(company "Peter Hancak")
 	)
 	(lib_symbols)
+	(junction
+		(at 180.34 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8dbafd2e-b3ba-45db-ad03-2bb1ef6839ed")
+	)
 	(wire
 		(pts
-			(xy 92.71 58.42) (xy 116.84 58.42)
+			(xy 173.99 57.15) (xy 180.34 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0edef5ab-91e3-4209-a735-b61976fd4575")
+	)
+	(wire
+		(pts
+			(xy 198.12 69.85) (xy 180.34 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "106070e9-2f15-455b-9f6c-6c9134eb0aa4")
+	)
+	(wire
+		(pts
+			(xy 92.71 59.69) (xy 116.84 59.69)
 		)
 		(stroke
 			(width 0)
@@ -23,7 +49,17 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 99.06) (xy 116.84 99.06)
+			(xy 173.99 77.47) (xy 198.12 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1509c615-6d75-4db7-a025-f4d06e9bb7fd")
+	)
+	(wire
+		(pts
+			(xy 110.49 104.14) (xy 116.84 104.14)
 		)
 		(stroke
 			(width 0)
@@ -33,17 +69,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 72.39) (xy 198.12 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18dba891-e7ad-49d2-9ffe-f5c26f6d91a1")
-	)
-	(wire
-		(pts
-			(xy 92.71 76.2) (xy 116.84 76.2)
+			(xy 92.71 77.47) (xy 116.84 77.47)
 		)
 		(stroke
 			(width 0)
@@ -53,7 +79,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 118.11) (xy 110.49 99.06)
+			(xy 110.49 119.38) (xy 110.49 104.14)
 		)
 		(stroke
 			(width 0)
@@ -63,23 +89,23 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 48.26) (xy 198.12 48.26)
+			(xy 173.99 46.99) (xy 198.12 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "40f63d43-a0d1-42f0-8d98-5226b6ef5e0e")
+		(uuid "429a96a4-78fb-4ff7-a08c-838c744b6aa1")
 	)
 	(wire
 		(pts
-			(xy 173.99 50.8) (xy 198.12 50.8)
+			(xy 173.99 49.53) (xy 198.12 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5a2cd6b7-bbcf-4349-875f-8e00eeeabc2f")
+		(uuid "50e1f05d-0034-49f3-9796-575d578bcfbd")
 	)
 	(wire
 		(pts
@@ -89,21 +115,21 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "5e891c0c-615b-4ea7-93bb-fdcdc5183eb8")
+		(uuid "53427dea-caa8-4f2b-8e91-14f9f00e9a81")
 	)
 	(wire
 		(pts
-			(xy 173.99 45.72) (xy 198.12 45.72)
+			(xy 173.99 87.63) (xy 198.12 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6b78b7a8-882e-47ea-bf8f-008abe39ca9f")
+		(uuid "66c9039e-1053-48bb-aba6-75a8d2e1de40")
 	)
 	(wire
 		(pts
-			(xy 91.44 118.11) (xy 110.49 118.11)
+			(xy 91.44 119.38) (xy 110.49 119.38)
 		)
 		(stroke
 			(width 0)
@@ -113,7 +139,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 48.26) (xy 116.84 48.26)
+			(xy 92.71 49.53) (xy 116.84 49.53)
 		)
 		(stroke
 			(width 0)
@@ -123,7 +149,17 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 60.96) (xy 116.84 60.96)
+			(xy 173.99 54.61) (xy 198.12 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bf1f04d-a6d2-49c5-822d-48636cca99b8")
+	)
+	(wire
+		(pts
+			(xy 92.71 62.23) (xy 116.84 62.23)
 		)
 		(stroke
 			(width 0)
@@ -133,7 +169,27 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 50.8) (xy 116.84 50.8)
+			(xy 173.99 44.45) (xy 198.12 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84a20289-b5e7-4a7d-8b23-d50980cd4706")
+	)
+	(wire
+		(pts
+			(xy 180.34 57.15) (xy 198.12 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "892d01a3-cde3-49c4-aba6-94fc224dd879")
+	)
+	(wire
+		(pts
+			(xy 92.71 52.07) (xy 116.84 52.07)
 		)
 		(stroke
 			(width 0)
@@ -143,7 +199,17 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 53.34) (xy 116.84 53.34)
+			(xy 180.34 69.85) (xy 180.34 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c480512-0c7a-4079-a246-eff94f337b6a")
+	)
+	(wire
+		(pts
+			(xy 92.71 54.61) (xy 116.84 54.61)
 		)
 		(stroke
 			(width 0)
@@ -153,27 +219,37 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 64.77) (xy 198.12 64.77)
+			(xy 173.99 62.23) (xy 198.12 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a10222cd-ccd0-4799-b50c-12e8b97ad661")
+		(uuid "a5f02b75-0f28-41cd-978a-eb6781969a6d")
 	)
 	(wire
 		(pts
-			(xy 173.99 53.34) (xy 198.12 53.34)
+			(xy 173.99 52.07) (xy 198.12 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a6c863c7-db74-4439-a817-be6466069a49")
+		(uuid "ae5fd415-a607-4cf3-bfe7-237dcca9c3be")
 	)
 	(wire
 		(pts
-			(xy 92.71 78.74) (xy 116.84 78.74)
+			(xy 173.99 104.14) (xy 198.12 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af33ed48-afcd-4614-9867-ebc1891e9d12")
+	)
+	(wire
+		(pts
+			(xy 92.71 80.01) (xy 116.84 80.01)
 		)
 		(stroke
 			(width 0)
@@ -183,37 +259,27 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 58.42) (xy 198.12 58.42)
+			(xy 173.99 95.25) (xy 198.12 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b806fc47-6d7f-46e1-bba9-b7abe3f9ca0b")
+		(uuid "b837532a-4973-4342-9cce-a29d10770cd6")
 	)
 	(wire
 		(pts
-			(xy 173.99 43.18) (xy 198.12 43.18)
+			(xy 173.99 90.17) (xy 198.12 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c5cf2f7f-3dd2-4115-834a-0b066f637f08")
+		(uuid "baba9f3a-f1d2-4a2f-af60-a117f7312f3a")
 	)
 	(wire
 		(pts
-			(xy 173.99 67.31) (xy 198.12 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7b858e5-9366-49c6-b729-f639610613d9")
-	)
-	(wire
-		(pts
-			(xy 92.71 55.88) (xy 116.84 55.88)
+			(xy 92.71 57.15) (xy 116.84 57.15)
 		)
 		(stroke
 			(width 0)
@@ -223,17 +289,17 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 55.88) (xy 198.12 55.88)
+			(xy 173.99 64.77) (xy 198.12 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dae4b261-1543-4132-8fb5-ff948dbd2a76")
+		(uuid "d71dc8db-ea92-4642-b864-e2af243e1b95")
 	)
 	(wire
 		(pts
-			(xy 92.71 43.18) (xy 116.84 43.18)
+			(xy 92.71 44.45) (xy 116.84 44.45)
 		)
 		(stroke
 			(width 0)
@@ -241,10 +307,40 @@
 		)
 		(uuid "dfd4316e-999c-46ae-b833-f2994f4f06e3")
 	)
-	(text_box "Notes:\n1. For XTAL assume stray capacitance 5nF\n2. For the XTAL the sum of the frequency tolerance \n   and frequency stability must not exceed 10 ppm.\n3. Use 2 pF capacitors on each side of the crystal \n   (C1 and C2 to ground)\n\n- SN74CB3T3257PWR designed  to work with SPI and QSPI\n  (Has low C and R)\n- 0603 Components are used on the RF trace"
+	(wire
+		(pts
+			(xy 173.99 82.55) (xy 198.12 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e267dd74-209a-4a6e-ab49-2b2729f72a4c")
+	)
+	(wire
+		(pts
+			(xy 173.99 92.71) (xy 198.12 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9686fa9-9f16-4442-bee1-0612d382bb66")
+	)
+	(wire
+		(pts
+			(xy 173.99 67.31) (xy 198.12 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec52da77-a8fa-4b55-ba1d-e8c85215e405")
+	)
+	(text_box "Notes:\n1. For XTAL assume stray capacitance 5nF\n2. For the XTAL the sum of the frequency tolerance \n   and frequency stability must not exceed 10 ppm.\n3. Use 2 pF capacitors on each side of the crystal \n   (C1 and C2 to ground)\n\n- SN74CB3T3257PWR designed  to work with SPI and QSPI\n  (Has low C and R)\n- 0603 Components are used on the RF trace\n\n- CHIP_PU pin can enable the chip when it is high and reset the chip when it is low."
 		(exclude_from_sim no)
-		(at 194.31 107.315 0)
-		(size 95.885 68.58)
+		(at 194.31 124.46 0)
+		(size 95.885 40.64)
 		(stroke
 			(width 0)
 			(type default)
@@ -261,7 +357,7 @@
 		(uuid "b11dc06c-8552-4a59-8460-16d7ea225afb")
 	)
 	(sheet
-		(at 116.84 38.735)
+		(at 116.84 39.37)
 		(size 57.15 69.85)
 		(fields_autoplaced yes)
 		(stroke
@@ -273,7 +369,7 @@
 		)
 		(uuid "3f31b79a-4b1d-4f6a-9e65-8105f0e11a44")
 		(property "Sheetname" "ESP32-C6"
-			(at 116.84 38.0234 0)
+			(at 116.84 38.6584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -282,7 +378,7 @@
 			)
 		)
 		(property "Sheetfile" "ESP32-C6.kicad_sch"
-			(at 116.84 109.1696 0)
+			(at 116.84 109.8046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -291,7 +387,7 @@
 			)
 		)
 		(pin "RF_LNA_IN" bidirectional
-			(at 116.84 43.18 180)
+			(at 116.84 44.45 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -301,7 +397,7 @@
 			(uuid "3b92de28-3ac8-47dc-8c93-292235b14988")
 		)
 		(pin "GPIO2_FSPIQ_MISO{slash}SIO1_R" bidirectional
-			(at 173.99 80.01 0)
+			(at 173.99 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -311,7 +407,7 @@
 			(uuid "35151d4a-adde-44b9-9f0e-5accba7965bc")
 		)
 		(pin "GPIO5_FSPIWP_SIO2_R" bidirectional
-			(at 173.99 82.55 0)
+			(at 173.99 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -321,7 +417,7 @@
 			(uuid "258bfd76-f981-4a22-8c62-b3df0be4fb01")
 		)
 		(pin "GPIO6_FSPICLK_R" bidirectional
-			(at 173.99 85.09 0)
+			(at 173.99 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -331,7 +427,7 @@
 			(uuid "9369d254-d9ac-40ac-9b01-65b26600f651")
 		)
 		(pin "GPIO7_FSPID_MOSI{slash}SIO0_R" bidirectional
-			(at 173.99 87.63 0)
+			(at 173.99 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -341,7 +437,7 @@
 			(uuid "6c5119e4-01b2-4038-b3ef-48fa897e3ab7")
 		)
 		(pin "GPIO4_FSPIHD_SIO3" bidirectional
-			(at 173.99 90.17 0)
+			(at 173.99 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -351,7 +447,7 @@
 			(uuid "074ab7f9-6a65-4a57-926a-ff86acf0a32a")
 		)
 		(pin "GPIO3_USR_BTN" input
-			(at 173.99 97.79 0)
+			(at 173.99 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -361,7 +457,7 @@
 			(uuid "275cc6d8-a800-4ad7-93bb-366b8ddf5edb")
 		)
 		(pin "USB_D+" bidirectional
-			(at 116.84 76.2 180)
+			(at 116.84 77.47 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -371,7 +467,7 @@
 			(uuid "5e9b291b-72bb-43b3-8f13-b12b49367907")
 		)
 		(pin "USB_D-" bidirectional
-			(at 116.84 78.74 180)
+			(at 116.84 80.01 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -381,7 +477,7 @@
 			(uuid "fd0305b3-33a8-4ded-ab7c-05f83be9c360")
 		)
 		(pin "GPIO11_I2C_SDA" bidirectional
-			(at 173.99 64.77 0)
+			(at 173.99 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -391,7 +487,7 @@
 			(uuid "2c43a8ec-60a6-4e24-9f15-16a8fb7921a9")
 		)
 		(pin "GPIO10_I2C_SCL" bidirectional
-			(at 173.99 67.31 0)
+			(at 173.99 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -401,7 +497,7 @@
 			(uuid "5e9ee4c1-53c9-4bbc-bef4-8c649511efed")
 		)
 		(pin "SPICS0_Chip_Select" bidirectional
-			(at 116.84 48.26 180)
+			(at 116.84 49.53 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -411,7 +507,7 @@
 			(uuid "8e688adf-2b3b-4ae5-b291-feeda5a36cda")
 		)
 		(pin "SPIHD_Hold" bidirectional
-			(at 116.84 58.42 180)
+			(at 116.84 59.69 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -421,7 +517,7 @@
 			(uuid "fa451e63-83df-4033-bfd8-56f8afcee3a7")
 		)
 		(pin "GPIO17_U0TXD" output
-			(at 173.99 74.93 0)
+			(at 173.99 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -431,7 +527,7 @@
 			(uuid "d096418e-4bac-4716-9149-b33f33e90893")
 		)
 		(pin "SPID_Data_In" input
-			(at 116.84 53.34 180)
+			(at 116.84 54.61 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -441,7 +537,7 @@
 			(uuid "c8eea891-461c-4279-b3f1-f463c72ebd56")
 		)
 		(pin "SPICLK_Clock" bidirectional
-			(at 116.84 50.8 180)
+			(at 116.84 52.07 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -451,7 +547,7 @@
 			(uuid "f899bdb0-f7fc-4c09-b23c-5b0f6b30fe7f")
 		)
 		(pin "SPIQ_Data_Out" output
-			(at 116.84 55.88 180)
+			(at 116.84 57.15 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -461,7 +557,7 @@
 			(uuid "c24421cc-ace1-4e30-8aaa-10946329de7b")
 		)
 		(pin "GPIO16_U0RXD" input
-			(at 173.99 72.39 0)
+			(at 173.99 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -471,7 +567,7 @@
 			(uuid "1cef1c66-9907-4539-b2cf-8ca85ebc69d0")
 		)
 		(pin "SPIWP_Write_Protect" bidirectional
-			(at 116.84 60.96 180)
+			(at 116.84 62.23 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -481,7 +577,7 @@
 			(uuid "740618ef-cfc5-41c5-ae62-f877dd676268")
 		)
 		(pin "GPIO19_SDIO_CLK" bidirectional
-			(at 173.99 53.34 0)
+			(at 173.99 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -491,7 +587,7 @@
 			(uuid "cca54d86-4f44-4c16-9fde-b38ad661c949")
 		)
 		(pin "GPIO18_SDIO_CMD" bidirectional
-			(at 173.99 55.88 0)
+			(at 173.99 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -500,48 +596,8 @@
 			)
 			(uuid "f5a5ca05-ea7b-4f41-b448-5520a27edb42")
 		)
-		(pin "GPIO20_SDIO_DATA0" bidirectional
-			(at 173.99 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "706e00f6-50ea-4c10-b493-9636a8536e34")
-		)
-		(pin "GPIO21_SDIO_DATA1" bidirectional
-			(at 173.99 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "ac1df4dc-41d2-4f6a-bb96-bbb2530b9ea6")
-		)
-		(pin "GPIO22_SDIO_DATA2" bidirectional
-			(at 173.99 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "ec8017c6-ed63-4217-b1b6-83983b5d61d3")
-		)
-		(pin "GPIO23_SDIO_DATA3" bidirectional
-			(at 173.99 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "45b676ba-170f-44ae-8c79-c557f9747d8a")
-		)
 		(pin "GPIO15_SDIO_INT" bidirectional
-			(at 173.99 58.42 0)
+			(at 173.99 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -551,7 +607,7 @@
 			(uuid "c5855b92-7e22-43b2-be79-e52e64708b10")
 		)
 		(pin "RST_CHIP_PU_D" bidirectional
-			(at 116.84 99.06 180)
+			(at 116.84 104.14 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -559,6 +615,46 @@
 				(justify left)
 			)
 			(uuid "108ad8e8-a312-4e37-ae27-ff3c321acd5a")
+		)
+		(pin "GPIO23_FSPID_MOSI{slash}SIO0" bidirectional
+			(at 173.99 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "01f0c83c-7740-4998-8d3d-30572ddf9763")
+		)
+		(pin "GPIO20_FSPICS0" bidirectional
+			(at 173.99 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "73ce9ef2-6dfe-4239-a653-e568070e3dee")
+		)
+		(pin "GPIO22_FSPIQ_MISO{slash}SIO1" bidirectional
+			(at 173.99 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e9995bf3-820e-47be-b1d7-529c1bba536e")
+		)
+		(pin "GPIO21_FSPICLK" bidirectional
+			(at 173.99 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "010b5c42-1e0a-438d-9e2e-23170c1706d8")
 		)
 		(instances
 			(project "ESP32C6_Board"
@@ -569,8 +665,8 @@
 		)
 	)
 	(sheet
-		(at 198.12 38.735)
-		(size 46.99 60.96)
+		(at 198.12 39.37)
+		(size 46.99 69.85)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -581,7 +677,7 @@
 		)
 		(uuid "4b1f7b1a-88c2-464c-9e33-85a1d9f6c4fe")
 		(property "Sheetname" "Interfaces"
-			(at 198.12 38.0234 0)
+			(at 198.12 38.6584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -590,7 +686,7 @@
 			)
 		)
 		(property "Sheetfile" "Interfaces.kicad_sch"
-			(at 198.12 100.2796 0)
+			(at 198.12 109.8046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -598,27 +694,7 @@
 				(justify left top)
 			)
 		)
-		(pin "GPIO11_I2C_SDA" bidirectional
-			(at 198.12 64.77 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "d69e9060-d434-4d72-a6fb-17cbf4646f8a")
-		)
-		(pin "GPIO10_I2C_SCL" bidirectional
-			(at 198.12 67.31 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "c4672ebf-c48b-4b56-a999-290adfa0b005")
-		)
-		(pin "GPIO17_U0TXD" output
+		(pin "I2C_SDA_HDR" bidirectional
 			(at 198.12 74.93 180)
 			(effects
 				(font
@@ -626,87 +702,177 @@
 				)
 				(justify left)
 			)
-			(uuid "97fa6409-d406-47ec-8209-2d7b323093cc")
+			(uuid "3d5b2c1b-eb35-426d-85f2-d9d50ea5c2fe")
 		)
-		(pin "GPIO16_U0RXD" input
-			(at 198.12 72.39 180)
+		(pin "I2C_SCL_HDR" bidirectional
+			(at 198.12 77.47 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "75f6b306-af54-4a17-944f-0175f1d07eb2")
+			(uuid "21e7a367-3926-498e-aecf-6f2052b71bb7")
 		)
-		(pin "GPIO18_SDIO_CMD" bidirectional
-			(at 198.12 55.88 180)
+		(pin "UART1_TX{slash}RX" input
+			(at 198.12 82.55 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c957dffd-fab5-4f6f-a5f9-a31e7bfa4282")
+			(uuid "46c8436d-6222-4afa-98cf-9555941f5664")
 		)
-		(pin "GPIO15_SDIO_INT" bidirectional
-			(at 198.12 58.42 180)
+		(pin "SPI_CS" bidirectional
+			(at 198.12 69.85 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e67066c1-572f-4d1a-9909-513a8909e8b5")
+			(uuid "1c435143-0a2d-4727-a390-a8d9e1cefa20")
 		)
-		(pin "GPIO21_SDIO_DATA1" bidirectional
-			(at 198.12 45.72 180)
+		(pin "SPI_CLK" bidirectional
+			(at 198.12 67.31 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "fb144376-5c8b-40aa-af47-0a30a632709e")
+			(uuid "19d8cc98-4efb-4d98-8189-51627a479ac2")
 		)
-		(pin "GPIO20_SDIO_DATA0" bidirectional
-			(at 198.12 43.18 180)
+		(pin "SPI_MOSI" bidirectional
+			(at 198.12 62.23 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6111063a-b090-4171-a271-ae716b810ce0")
+			(uuid "2a140a50-2dd0-44d0-985e-48de32ba6482")
 		)
-		(pin "GPIO19_SDIO_CLK" bidirectional
-			(at 198.12 53.34 180)
+		(pin "SPI_MISO" bidirectional
+			(at 198.12 64.77 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "668e6c53-3cc9-4544-996d-1edee361cf4b")
+			(uuid "0109bf52-452b-4284-8afd-eec5f235f621")
 		)
-		(pin "GPIO23_SDIO_DATA3" bidirectional
-			(at 198.12 50.8 180)
+		(pin "QSPI_IO3" bidirectional
+			(at 198.12 52.07 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "db9d1fc3-3119-470f-9ea4-c28d7e998cdc")
+			(uuid "c036843d-ad62-4284-bc06-47729b0a42dc")
 		)
-		(pin "GPIO22_SDIO_DATA2" bidirectional
-			(at 198.12 48.26 180)
+		(pin "QSPI_IO2" bidirectional
+			(at 198.12 49.53 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "dd3d2c20-d761-4a5d-b4ee-9722b0acb284")
+			(uuid "2960b1e7-a590-436e-9824-2437ba6aa6d0")
+		)
+		(pin "QSPI_IO1" bidirectional
+			(at 198.12 46.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "37099d3d-1e92-4556-bbae-1e65888b9ddc")
+		)
+		(pin "QSPI_CS0" bidirectional
+			(at 198.12 54.61 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5990f4d2-8a6e-436c-9de6-e32f2f6e2f1d")
+		)
+		(pin "QSPI_CLK" bidirectional
+			(at 198.12 57.15 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e35e1b7c-7cdb-4cc7-9d35-8800a6a46be6")
+		)
+		(pin "QSPI_IO0" bidirectional
+			(at 198.12 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "539938af-5f8f-4a0c-82ba-1e94f736e505")
+		)
+		(pin "USR_BTN" output
+			(at 198.12 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "581db9d7-0c2e-4299-953c-2d27bc9157ee")
+		)
+		(pin "I{slash}O_HDR3" bidirectional
+			(at 198.12 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ec0190f8-84eb-4967-bf71-041bb3bbaece")
+		)
+		(pin "I{slash}O_HDR0" bidirectional
+			(at 198.12 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cf8e9dd6-3255-4577-9be2-bd5a894e9a92")
+		)
+		(pin "I{slash}O_HDR2" bidirectional
+			(at 198.12 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8a842ad3-3a43-44ae-8a65-5b00db601020")
+		)
+		(pin "I{slash}O_HDR1" bidirectional
+			(at 198.12 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2234851a-0b0e-4fba-acc5-30dcbcefd07f")
 		)
 		(instances
 			(project "ESP32C6_Board"
@@ -717,8 +883,8 @@
 		)
 	)
 	(sheet
-		(at 45.085 113.665)
-		(size 46.355 42.545)
+		(at 45.72 114.3)
+		(size 45.72 41.91)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -729,7 +895,7 @@
 		)
 		(uuid "6ad31e88-c611-43e7-8d3f-ce4ca2080bcf")
 		(property "Sheetname" "Power_Management"
-			(at 45.085 112.9534 0)
+			(at 45.72 113.5884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -738,7 +904,7 @@
 			)
 		)
 		(property "Sheetfile" "Power_Management.kicad_sch"
-			(at 45.085 156.7946 0)
+			(at 45.72 157.4296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -747,7 +913,7 @@
 			)
 		)
 		(pin "*RST" bidirectional
-			(at 91.44 118.11 0)
+			(at 91.44 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -765,8 +931,8 @@
 		)
 	)
 	(sheet
-		(at 43.815 38.735)
-		(size 48.895 46.355)
+		(at 44.45 39.37)
+		(size 48.26 45.72)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -777,7 +943,7 @@
 		)
 		(uuid "dbcb7f5e-694a-4e16-90f4-3e351eeed3d3")
 		(property "Sheetname" "RF_USB_Memory"
-			(at 43.815 38.0234 0)
+			(at 44.45 38.6584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -786,7 +952,7 @@
 			)
 		)
 		(property "Sheetfile" "RF_USB_Memory.kicad_sch"
-			(at 43.815 85.6746 0)
+			(at 44.45 86.3096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -795,7 +961,7 @@
 			)
 		)
 		(pin "SPICS0_Chip_Select" bidirectional
-			(at 92.71 48.26 0)
+			(at 92.71 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -805,7 +971,7 @@
 			(uuid "981551a7-e60c-4979-8e9b-3ec553f9046d")
 		)
 		(pin "SPICLK_Clock" bidirectional
-			(at 92.71 50.8 0)
+			(at 92.71 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -815,7 +981,7 @@
 			(uuid "cac0f0b5-ca03-4284-8d05-340d36aa6da4")
 		)
 		(pin "SPID_Data_In" bidirectional
-			(at 92.71 53.34 0)
+			(at 92.71 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -825,7 +991,7 @@
 			(uuid "e0d404c7-da6e-4d01-b4f7-e75f55efa97c")
 		)
 		(pin "SPIQ_Data_Out" bidirectional
-			(at 92.71 55.88 0)
+			(at 92.71 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -835,7 +1001,7 @@
 			(uuid "afdb3ea3-5d5c-4548-baf8-f56611362e77")
 		)
 		(pin "SPIHD_Hold" bidirectional
-			(at 92.71 58.42 0)
+			(at 92.71 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -845,7 +1011,7 @@
 			(uuid "84c20070-38d0-4596-8fc7-34ca6ffdba60")
 		)
 		(pin "SPIWP_Write_Protect" bidirectional
-			(at 92.71 60.96 0)
+			(at 92.71 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -855,7 +1021,7 @@
 			(uuid "95e43717-360e-457a-b5f1-47c5b081dd86")
 		)
 		(pin "RF_LNA_IN" bidirectional
-			(at 92.71 43.18 0)
+			(at 92.71 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -865,7 +1031,7 @@
 			(uuid "084c11b1-cbe3-495b-b1b6-330a9eeddd91")
 		)
 		(pin "USB_D2+_DI" bidirectional
-			(at 92.71 76.2 0)
+			(at 92.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -875,7 +1041,7 @@
 			(uuid "10a55224-451e-4fbe-8eaa-0cf296fec3ca")
 		)
 		(pin "USB_D2-_DI" bidirectional
-			(at 92.71 78.74 0)
+			(at 92.71 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)

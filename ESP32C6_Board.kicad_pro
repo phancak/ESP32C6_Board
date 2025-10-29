@@ -522,7 +522,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "GND",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(132, 132, 132)",
         "schematic_color": "rgb(194, 194, 194)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -590,7 +590,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "RF",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 255, 0)",
         "schematic_color": "rgb(194, 194, 0)",
         "track_width": 0.25,
         "via_diameter": 0.7,
@@ -658,7 +658,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "USB",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(0, 255, 255)",
         "schematic_color": "rgb(0, 0, 255)",
         "track_width": 0.235,
         "via_diameter": 0.8,
@@ -686,7 +686,7 @@
       },
       {
         "netclass": "RF",
-        "pattern": "/RF*"
+        "pattern": "*RF*"
       },
       {
         "netclass": "RF",
