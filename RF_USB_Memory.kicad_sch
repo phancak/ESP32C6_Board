@@ -4033,7 +4033,7 @@
 		)
 		(uuid "0fc8eef5-99bc-4e21-a31b-8371fd4b8bd3")
 	)
-	(label "USB_VBUS+"
+	(label "USB_VBUS+_C"
 		(at 167.64 35.56 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4054,6 +4054,16 @@
 			(justify left bottom)
 		)
 		(uuid "25513845-bfc0-476b-bf38-9217f5adfe8d")
+	)
+	(label "CC2"
+		(at 195.58 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2c6658fa-8d8d-4484-84b0-4f0bd54dfcd8")
 	)
 	(label "SPICLK_Clock"
 		(at 50.8 137.16 0)
@@ -4153,6 +4163,16 @@
 			(justify left bottom)
 		)
 		(uuid "c31ce527-3ddf-48de-b8c5-b2c306e0e7fc")
+	)
+	(label "CC1"
+		(at 195.58 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c4dfed83-476b-448c-895e-2865b8d6fdc3")
 	)
 	(label "RF_ANT"
 		(at 204.47 142.24 180)

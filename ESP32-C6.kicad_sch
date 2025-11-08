@@ -4111,6 +4111,7 @@
 	)
 	(label "XTAL_32K_N"
 		(at 110.49 107.95 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4121,6 +4122,7 @@
 	)
 	(label "XTAL_32K_P"
 		(at 110.49 105.41 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6776,7 +6778,7 @@
 		(dnp no)
 		(uuid "a192d455-0391-4036-8206-3549c214a9de")
 		(property "Reference" "C23"
-			(at 61.468 106.934 90)
+			(at 60.706 106.934 90)
 			(effects
 				(font
 					(size 1.27 1.27)
