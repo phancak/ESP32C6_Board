@@ -931,6 +931,44 @@
 		)
 	)
 	(sheet
+		(at 120.65 163.195)
+		(size 45.085 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 255 255 1.0000)
+		)
+		(uuid "8a194683-23ed-4f49-b751-9e43a56641d7")
+		(property "Sheetname" "ESP32-S3"
+			(at 120.65 162.4834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32-S3.kicad_sch"
+			(at 120.65 180.2896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32C6_Board"
+				(path "/beafeceb-d7f8-4966-bdc7-36ccea772b2f"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 45.72 168.91)
 		(size 45.085 19.685)
 		(fields_autoplaced yes)
