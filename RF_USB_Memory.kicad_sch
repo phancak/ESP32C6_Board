@@ -4057,6 +4057,7 @@
 	)
 	(label "CC2"
 		(at 195.58 52.07 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4166,6 +4167,7 @@
 	)
 	(label "CC1"
 		(at 195.58 49.53 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -887,6 +887,14 @@
     [
       "4b1f7b1a-88c2-464c-9e33-85a1d9f6c4fe",
       "Interfaces"
+    ],
+    [
+      "ac49dd87-49e6-4cec-8faf-a06f94adee02",
+      "LCD"
+    ],
+    [
+      "ae55c27d-35b5-4bdc-ace4-8dd23dae59a8",
+      "Camera"
     ]
   ],
   "text_variables": {}

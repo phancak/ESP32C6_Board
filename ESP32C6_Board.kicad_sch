@@ -931,6 +931,82 @@
 		)
 	)
 	(sheet
+		(at 45.72 168.91)
+		(size 45.085 19.685)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 255 255 1.0000)
+		)
+		(uuid "ac49dd87-49e6-4cec-8faf-a06f94adee02")
+		(property "Sheetname" "LCD"
+			(at 45.72 168.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LCD_Camera.kicad_sch"
+			(at 45.72 189.1796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32C6_Board"
+				(path "/beafeceb-d7f8-4966-bdc7-36ccea772b2f"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 135.255)
+		(size 45.085 18.415)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 255 255 1.0000)
+		)
+		(uuid "ae55c27d-35b5-4bdc-ace4-8dd23dae59a8")
+		(property "Sheetname" "Camera"
+			(at 120.65 134.5434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Camera.kicad_sch"
+			(at 120.65 154.2546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32C6_Board"
+				(path "/beafeceb-d7f8-4966-bdc7-36ccea772b2f"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 44.45 39.37)
 		(size 48.26 45.72)
 		(fields_autoplaced yes)
